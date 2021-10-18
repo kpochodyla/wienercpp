@@ -38,7 +38,7 @@ vector<ZZ> oblicz_wartosc_ulamka_lancuchowego(ZZ e, ZZ N)
 }
 
 
-vector<ZZ> attack(ZZ e, ZZ N)
+vector<ZZ> atak(ZZ e, ZZ N)
 {
     vector<ZZ> P;
     vector<ZZ> Q;
@@ -159,7 +159,7 @@ int main(int argc, char *argv[])
     vector<ZZ> wynik;
     ZZ d, q, p, phiN;
     std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
-    wynik = attack(e, N);
+    wynik = atak(e, N);
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
     q = wynik[0];
     d = wynik[1];
