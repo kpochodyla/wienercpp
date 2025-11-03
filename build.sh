@@ -1,2 +1,2 @@
 #!/bin/bash
-g++ -g -O2 -std=c++11 -pthread -march=native wiener.cpp -o wiener -lntl -lgmp -lm
+g++ -std=c++17 -O2 wiener_attack.cpp -o wiener_attack -lntl -lgmp
